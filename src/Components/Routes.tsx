@@ -12,8 +12,13 @@ import PublicRoutes from "./Pages/PublicRoutes";
 import { ProdLayout } from "./Pages/Products/ProdLayout.js";
 import { ProductDetails } from "./Pages/Products/ProductDetails.js";
 import AddProduct from "./Pages/Products/AddProduct.js";
+import { Navigate } from "react-router";
 function Routes() {
   const element = useRoutes([
+    {
+      path: "/",
+      element: <Navigate to="/login"/>
+    }
     {
       element: <PublicRoutes />,
       children: [
