@@ -65,6 +65,6 @@ npm run dev
 
 ---
 
-## 🙌 Author
+##  Author
 
 * Developed by Shreya Pancholi
