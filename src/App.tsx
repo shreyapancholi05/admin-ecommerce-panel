@@ -1,12 +1,15 @@
-import { BrowserRouter, NavLink } from "react-router"
+// import { BrowserRouter, NavLink } from "react-router"
+import { HashRouter } from "react-router";
 import Routes from "./Components/Routes.js";
 function App() {
   return (
       <>
-        <BrowserRouter>
-          
+        <HashRouter>
           <Routes></Routes>
-        </BrowserRouter>
+        </HashRouter>
+          
+          
+        
       </>
   );
 }
